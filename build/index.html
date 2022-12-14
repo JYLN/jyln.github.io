@@ -42,9 +42,18 @@
             <!-- Text Section -->
             <section class="max-w-full md:w-2/3">
                 <h1
-                    id="name"
                     class="bg-gradient-to-r from-amber-100 to-rose-300 bg-clip-text font-poppins text-6xl font-extrabold tracking-tight text-transparent md:text-7xl">
-                    Hi, I'm Jaylen!
+                    <span
+                        id="name-content"
+                        class="typer"
+                        data-loop="false"
+                        data-colors="undefined"
+                        data-words="Hi, I'm Jaylen!"
+                        data-delim="\"
+                        data-delay="80"></span>
+                    <span
+                        class="cursor font-jetbrains font-light text-white"
+                        data-owner="name-content"></span>
                 </h1>
                 <p class="mt-4 font-jetbrains text-base lg:text-xl">
                     Just a small town guy, currently working as a network
@@ -104,5 +113,9 @@
             <i class="fa-brands fa-node fa-fw"></i>
             <i class="fa-brands fa-npm fa-fw"></i>
         </footer>
+
+        <script
+            async
+            src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     </body>
 </html>
